@@ -4,3 +4,5 @@ powershell -Command "Invoke-WebRequest https://github.com/Rionte/resource-packs/
 powershell -command "Expand-Archive -Force '%~dp0resource-packs-main.zip' '%~dp0'"
 
 del "resource-packs-main.zip"
+
+%SystemRoot%\explorer.exe "C:\Users\remi\AppData\Roaming\.minecraft\resourcepacks\resource-packs-master"
